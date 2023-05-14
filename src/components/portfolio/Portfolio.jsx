@@ -8,6 +8,7 @@ import IMG5 from '../../assets/project-5.jpg'
 import IMG6 from '../../assets/project-6.jpg'
 import IMG7 from '../../assets/project-7.jpg'
 import IMG8 from '../../assets/project-8.jpg'
+import IMG9 from '../../assets/project-9.jpg'
 
 const Portfolio = () => {
   return (
@@ -70,6 +71,13 @@ const Portfolio = () => {
             <img src={IMG8} alt="" />
            </div>
             <h5>Brave's Video Call App</h5>
+            <a href="https://brave-video-call.vercel.app/" className='btn btn-primary' target='__blank'>Live Demo</a>
+         </article>
+         <article className='portfolio__item'>
+           <div className="portfolio__item-image">
+            <img src={IMG9} alt="" />
+           </div>
+            <h5>Brave's P Portfolio</h5>
             <a href="https://brave-video-call.vercel.app/" className='btn btn-primary' target='__blank'>Live Demo</a>
          </article>
       </div>
