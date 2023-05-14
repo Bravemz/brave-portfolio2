@@ -78,7 +78,7 @@ const Portfolio = () => {
             <img src={IMG9} alt="" />
            </div>
             <h5>Brave's P Portfolio</h5>
-            <a href="https://brave-video-call.vercel.app/" className='btn btn-primary' target='__blank'>Live Demo</a>
+            <a href="https://brave-portfolio2.vercel.app/" className='btn btn-primary' target='__blank'>Live Demo</a>
          </article>
       </div>
     </section>
